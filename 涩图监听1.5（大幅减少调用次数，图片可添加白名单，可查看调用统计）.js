@@ -28,19 +28,19 @@ const filename = `setudata`//json文件的文件名
 
 
 //==【0】. 若您同意本插件使用条款，请在下方license=""的引号中填入：我同意使用条款
-let agreelicense = "我才不同意什么使用条款 "
+let agreelicense = "我同意使用条款 "
 
 
 //==【1】. 请按照 https://www.wolai.com/x3bbeHstB15LAge9jdqr6y 的教程，配置并在下面填入百度图片内容识别key。
-var APP_ID = "你的 App ID";
-var API_KEY = "你的 Api Key";
-var SECRET_KEY = "你的 Secret Key";
+var APP_ID = "28077703";
+var API_KEY = "OcKhUGKZtQLy8YcfgKcGXrwE";
+var SECRET_KEY = "t7Goe9GnifkYgCg58aNGECGkUsnRjPYa";
 
 
 //==【2】. 下方是全局策略，没有单独定制策略的群会默认走全局策略。false表示该功能为关闭状态，true表示该功能为开启状态，可按需修改。 (注意是false不是flase) 
 let isChiDuShi_ = true;    //色图是否保存本地  (在/resources/setu文件夹中)
 let iscehui_ = false;      //是否撤回色图（需要机器人是管理员）
-let isWarn_ = false;       //是否@发图人进行提醒or警告
+let isWarn_ = true;       //是否@发图人进行提醒or警告
 let isTellMaster_ = true;  //监听到涩图后是否私聊通知主人
 let isMute_ = false;       //是否禁言发色图的人
 let mutetime_ = 1;         //禁言时间，单位分钟，需要填整数，最小为1,最大俺也不清楚，应该是30天x24小时x60分钟
